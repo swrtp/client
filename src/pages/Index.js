@@ -9,31 +9,31 @@ function About() {
                     <div id="header-carousel" className="carousel slide" data-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                {/*<img className="w-100" src="img/carousel-1.jpg" alt="Image" />*/}
-                                <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/carousel-1.jpg`} alt="Image" />
+                                {/*<img className="w-100" src="img/carousel-1.jpg" alt="Hình ảnh" />*/}
+                                <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/carousel-1.jpg`} alt="Hình ảnh" />
                                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                     <div className="p-3" style={{ maxWidth: 900 }}>
-                                        <h4 className="text-white text-uppercase mb-md-3">Rent A Car</h4>
+                                        <h4 className="text-white text-uppercase mb-md-3">Thuê Xe</h4>
                                         <h1 className="display-1 text-white mb-md-4">
-                                            Best Rental Cars In Your Location
+                                            Xe Thuê Tốt Nhất Tại Vị Trí Của Bạn
                                         </h1>
                                         <a href="" className="btn btn-primary py-md-3 px-md-5 mt-2">
-                                            Reserve Now
+                                            Đặt Ngay
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                {/*<img className="w-100" src="img/carousel-2.jpg" alt="Image" />*/}
-                                <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/carousel-2.jpg`} alt="Image" />
+                                {/*<img className="w-100" src="img/carousel-2.jpg" alt="Hình ảnh" />*/}
+                                <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/carousel-2.jpg`} alt="Hình ảnh" />
                                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                     <div className="p-3" style={{ maxWidth: 900 }}>
-                                        <h4 className="text-white text-uppercase mb-md-3">Rent A Car</h4>
+                                        <h4 className="text-white text-uppercase mb-md-3">Thuê Xe</h4>
                                         <h1 className="display-1 text-white mb-md-4">
-                                            Quality Cars with Unlimited Miles
+                                            Xe Chất Lượng Với Số Cây Không Giới Hạn
                                         </h1>
                                         <a href="" className="btn btn-primary py-md-3 px-md-5 mt-2">
-                                            Reserve Now
+                                            Đặt Ngay
                                         </a>
                                     </div>
                                 </div>
@@ -59,13 +59,14 @@ function About() {
                         </a>
                     </div>
                 </div>
+
                 {/* Carousel End */}
                 {/* About Start */}
                 <div className="container-fluid py-5">
                     <div className="container pt-5 pb-3">
                         <h1 className="display-1 text-primary text-center">01</h1>
                         <h1 className="display-4 text-uppercase text-center mb-5">
-                            Welcome To <span className="text-primary">Royal Cars</span>
+                            Chào Mừng Đến Với <span className="text-primary">Royal Cars</span>
                         </h1>
                         <div className="row justify-content-center">
                             <div className="col-lg-10 text-center">
@@ -96,7 +97,7 @@ function About() {
                                     >
                                         <i className="fa fa-2x fa-headset text-secondary" />
                                     </div>
-                                    <h4 className="text-uppercase m-0">24/7 Car Rental Support</h4>
+                                    <h4 className="text-uppercase m-0">Hỗ Trợ Thuê Xe 24/7</h4>
                                 </div>
                             </div>
                             <div className="col-lg-4 mb-2">
@@ -111,7 +112,7 @@ function About() {
                                         <i className="fa fa-2x fa-car text-secondary" />
                                     </div>
                                     <h4 className="text-light text-uppercase m-0">
-                                        Car Reservation Anytime
+                                        Đặt Xe Bất Cứ Lúc Nào
                                     </h4>
                                 </div>
                             </div>
@@ -126,19 +127,20 @@ function About() {
                                     >
                                         <i className="fa fa-2x fa-map-marker-alt text-secondary" />
                                     </div>
-                                    <h4 className="text-uppercase m-0">Lots Of Pickup Locations</h4>
+                                    <h4 className="text-uppercase m-0">Nhiều Địa Điểm Đón Xe</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 {/* About End */}
                 {/* Services Start */}
                 <div className="container-fluid py-5">
                     <div className="container pt-5 pb-3">
                         <h1 className="display-1 text-primary text-center">02</h1>
                         <h1 className="display-4 text-uppercase text-center mb-5">
-                            Our Services
+                            Dịch vụ của chúng tôi
                         </h1>
                         <div className="row">
                             <div className="col-lg-4 col-md-6 mb-2">
@@ -152,7 +154,7 @@ function About() {
                                         </div>
                                         <h1 className="display-2 text-white mt-n2 m-0">01</h1>
                                     </div>
-                                    <h4 className="text-uppercase mb-3">Car Rental</h4>
+                                    <h4 className="text-uppercase mb-3">Cho thuê xe </h4>
                                     <p className="m-0">
                                         Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
                                         stet, justo elitr dolor amet sit sea sed
@@ -170,7 +172,7 @@ function About() {
                                         </div>
                                         <h1 className="display-2 text-white mt-n2 m-0">02</h1>
                                     </div>
-                                    <h4 className="text-uppercase mb-3">Car Financing</h4>
+                                    <h4 className="text-uppercase mb-3">Tài trợ xe</h4>
                                     <p className="m-0">
                                         Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
                                         stet, justo elitr dolor amet sit sea sed
@@ -188,7 +190,7 @@ function About() {
                                         </div>
                                         <h1 className="display-2 text-white mt-n2 m-0">03</h1>
                                     </div>
-                                    <h4 className="text-uppercase mb-3">Car Inspection</h4>
+                                    <h4 className="text-uppercase mb-3">Kiểm tra xe</h4>
                                     <p className="m-0">
                                         Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
                                         stet, justo elitr dolor amet sit sea sed
@@ -206,7 +208,7 @@ function About() {
                                         </div>
                                         <h1 className="display-2 text-white mt-n2 m-0">04</h1>
                                     </div>
-                                    <h4 className="text-uppercase mb-3">Auto Repairing</h4>
+                                    <h4 className="text-uppercase mb-3">Tự động sửa chữa</h4>
                                     <p className="m-0">
                                         Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
                                         stet, justo elitr dolor amet sit sea sed
@@ -224,7 +226,7 @@ function About() {
                                         </div>
                                         <h1 className="display-2 text-white mt-n2 m-0">05</h1>
                                     </div>
-                                    <h4 className="text-uppercase mb-3">Auto Painting</h4>
+                                    <h4 className="text-uppercase mb-3">Sơn tự động</h4>
                                     <p className="m-0">
                                         Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
                                         stet, justo elitr dolor amet sit sea sed
@@ -242,7 +244,7 @@ function About() {
                                         </div>
                                         <h1 className="display-2 text-white mt-n2 m-0">06</h1>
                                     </div>
-                                    <h4 className="text-uppercase mb-3">Auto Cleaning</h4>
+                                    <h4 className="text-uppercase mb-3">Dọn xe tự động</h4>
                                     <p className="m-0">
                                         Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
                                         stet, justo elitr dolor amet sit sea sed
@@ -259,31 +261,33 @@ function About() {
                         <div className="bg-banner py-5 px-4 text-center">
                             <div className="py-5">
                                 <h1 className="display-1 text-uppercase text-primary mb-4">
-                                    50% OFF
+                                    Giảm Giá 50%
                                 </h1>
                                 <h1 className="text-uppercase text-light mb-4">
-                                    Special Offer For New Members
+                                    Ưu Đãi Đặc Biệt Dành Cho Thành Viên Mới
                                 </h1>
-                                <p className="mb-4">Only for Sunday from 1st Jan to 30th Jan 2045</p>
+                                <p className="mb-4">Chỉ vào Chủ Nhật từ 1 tháng 1 đến 30 tháng 1 năm 2045</p>
                                 <a className="btn btn-primary mt-2 py-3 px-5" href="">
-                                    Register Now
+                                    Đăng Ký Ngay
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 {/* Banner End */}
                 {/* Rent A Car Start */}
                 <div className="container-fluid py-5">
                     <div className="container pt-5 pb-3">
                         <h1 className="display-1 text-primary text-center">03</h1>
                         <h1 className="display-4 text-uppercase text-center mb-5">
-                            Find Your Car
+                            Tìm xe
                         </h1>
                         <div className="row">
                             <div className="col-lg-4 col-md-6 mb-2">
                                 <div className="rent-item mb-4">
-                                    <img className="img-fluid mb-4" src="img/car-rent-1.png" alt="" />
+                                    <img className="img-fluid mb-4" src={`${process.env.PUBLIC_URL}/assets/img/car-rent-1.png`} alt="" />
+
                                     <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
                                     <div className="d-flex justify-content-center mb-4">
                                         <div className="px-2">
@@ -292,7 +296,7 @@ function About() {
                                         </div>
                                         <div className="px-2 border-left border-right">
                                             <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
+                                            <span>Tự đông</span>
                                         </div>
                                         <div className="px-2">
                                             <i className="fa fa-road text-primary mr-1" />
@@ -300,106 +304,14 @@ function About() {
                                         </div>
                                     </div>
                                     <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
+                                        1000000/Ngày
                                     </a>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6 mb-2">
                                 <div className="rent-item active mb-4">
-                                    <img className="img-fluid mb-4" src="img/car-rent-2.png" alt="" />
-                                    <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
-                                    <div className="d-flex justify-content-center mb-4">
-                                        <div className="px-2">
-                                            <i className="fa fa-car text-primary mr-1" />
-                                            <span>2015</span>
-                                        </div>
-                                        <div className="px-2 border-left border-right">
-                                            <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
-                                        </div>
-                                        <div className="px-2">
-                                            <i className="fa fa-road text-primary mr-1" />
-                                            <span>25K</span>
-                                        </div>
-                                    </div>
-                                    <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 mb-2">
-                                <div className="rent-item mb-4">
-                                    <img className="img-fluid mb-4" src="img/car-rent-3.png" alt="" />
-                                    <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
-                                    <div className="d-flex justify-content-center mb-4">
-                                        <div className="px-2">
-                                            <i className="fa fa-car text-primary mr-1" />
-                                            <span>2015</span>
-                                        </div>
-                                        <div className="px-2 border-left border-right">
-                                            <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
-                                        </div>
-                                        <div className="px-2">
-                                            <i className="fa fa-road text-primary mr-1" />
-                                            <span>25K</span>
-                                        </div>
-                                    </div>
-                                    <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 mb-2">
-                                <div className="rent-item mb-4">
-                                    <img className="img-fluid mb-4" src="img/car-rent-4.png" alt="" />
-                                    <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
-                                    <div className="d-flex justify-content-center mb-4">
-                                        <div className="px-2">
-                                            <i className="fa fa-car text-primary mr-1" />
-                                            <span>2015</span>
-                                        </div>
-                                        <div className="px-2 border-left border-right">
-                                            <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
-                                        </div>
-                                        <div className="px-2">
-                                            <i className="fa fa-road text-primary mr-1" />
-                                            <span>25K</span>
-                                        </div>
-                                    </div>
-                                    <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 mb-2">
-                                <div className="rent-item mb-4">
-                                    <img className="img-fluid mb-4" src="img/car-rent-5.png" alt="" />
-                                    <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
-                                    <div className="d-flex justify-content-center mb-4">
-                                        <div className="px-2">
-                                            <i className="fa fa-car text-primary mr-1" />
-                                            <span>2015</span>
-                                        </div>
-                                        <div className="px-2 border-left border-right">
-                                            <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
-                                        </div>
-                                        <div className="px-2">
-                                            <i className="fa fa-road text-primary mr-1" />
-                                            <span>25K</span>
-                                        </div>
-                                    </div>
-                                    <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 mb-2">
-                                <div className="rent-item mb-4">
-                                    <img className="img-fluid mb-4" src="img/car-rent-6.png" alt="" />
 
+                                    <img className="img-fluid mb-4" src={`${process.env.PUBLIC_URL}/assets/img/car-rent-2.png`} alt="" />
 
                                     <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
                                     <div className="d-flex justify-content-center mb-4">
@@ -409,7 +321,7 @@ function About() {
                                         </div>
                                         <div className="px-2 border-left border-right">
                                             <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
+                                            <span>Tự đông</span>
                                         </div>
                                         <div className="px-2">
                                             <i className="fa fa-road text-primary mr-1" />
@@ -417,7 +329,102 @@ function About() {
                                         </div>
                                     </div>
                                     <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
+                                        1000000/Ngày
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 mb-2">
+                                <div className="rent-item mb-4">
+                                    <img className="img-fluid mb-4" src={`${process.env.PUBLIC_URL}/assets/img/car-rent-3.png`} alt="" />
+
+                                    <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
+                                    <div className="d-flex justify-content-center mb-4">
+                                        <div className="px-2">
+                                            <i className="fa fa-car text-primary mr-1" />
+                                            <span>2015</span>
+                                        </div>
+                                        <div className="px-2 border-left border-right">
+                                            <i className="fa fa-cogs text-primary mr-1" />
+                                            <span>Tự động</span>
+                                        </div>
+                                        <div className="px-2">
+                                            <i className="fa fa-road text-primary mr-1" />
+                                            <span>25K</span>
+                                        </div>
+                                    </div>
+                                    <a className="btn btn-primary px-3" href="">
+                                        1000000/Ngày
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 mb-2">
+                                <div className="rent-item mb-4">
+                                    <img className="img-fluid mb-4" src={`${process.env.PUBLIC_URL}/assets/img/car-rent-4.png`} alt="" />
+
+                                    <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
+                                    <div className="d-flex justify-content-center mb-4">
+                                        <div className="px-2">
+                                            <i className="fa fa-car text-primary mr-1" />
+                                            <span>2015</span>
+                                        </div>
+                                        <div className="px-2 border-left border-right">
+                                            <i className="fa fa-cogs text-primary mr-1" />
+                                            <span>Tự động</span>
+                                        </div>
+                                        <div className="px-2">
+                                            <i className="fa fa-road text-primary mr-1" />
+                                            <span>25K</span>
+                                        </div>
+                                    </div>
+                                    <a className="btn btn-primary px-3" href="">
+                                        1000000/Ngày
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 mb-2">
+                                <div className="rent-item mb-4">
+                                    <img className="img-fluid mb-4" src={`${process.env.PUBLIC_URL}/assets/img/car-rent-5.png`} alt="" />
+
+                                    <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
+                                    <div className="d-flex justify-content-center mb-4">
+                                        <div className="px-2">
+                                            <i className="fa fa-car text-primary mr-1" />
+                                            <span>2015</span>
+                                        </div>
+                                        <div className="px-2 border-left border-right">
+                                            <i className="fa fa-cogs text-primary mr-1" />
+                                            <span>Tự động</span>
+                                        </div>
+                                        <div className="px-2">
+                                            <i className="fa fa-road text-primary mr-1" />
+                                            <span>25K</span>
+                                        </div>
+                                    </div>
+                                    <a className="btn btn-primary px-3" href="">
+                                        1,000,000/Ngày
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 mb-2">
+                                <div className="rent-item mb-4">
+                                    <img className="img-fluid mb-4" src={`${process.env.PUBLIC_URL}/assets/img/car-rent-6.png`} alt="" />
+                                    <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
+                                    <div className="d-flex justify-content-center mb-4">
+                                        <div className="px-2">
+                                            <i className="fa fa-car text-primary mr-1" />
+                                            <span>2015</span>
+                                        </div>
+                                        <div className="px-2 border-left border-right">
+                                            <i className="fa fa-cogs text-primary mr-1" />
+                                            <span>Tự động</span>
+                                        </div>
+                                        <div className="px-2">
+                                            <i className="fa fa-road text-primary mr-1" />
+                                            <span>25K</span>
+                                        </div>
+                                    </div>
+                                    <a className="btn btn-primary px-3" href="">
+                                        1,000,000/Ngày
                                     </a>
                                 </div>
                             </div>
@@ -426,21 +433,22 @@ function About() {
                 </div>
                 {/* Rent A Car End */}
                 {/* Team Start */}
+
                 <div className="container-fluid py-5">
                     <div className="container py-5">
                         <h1 className="display-1 text-primary text-center">04</h1>
                         <h1 className="display-4 text-uppercase text-center mb-5">
-                            Meet Our Team
+                            Đến với nhóm chúng tôi
                         </h1>
                         <div
                             className="owl-carousel team-carousel position-relative"
                             style={{ padding: "0 30px" }}
                         >
                             <div className="team-item">
-                                <img className="img-fluid w-100" src="img/team-1.jpg" alt="" />
+                                <img className="img-fluid w-100" src={`${process.env.PUBLIC_URL}/assets/img/team-1.jpg`} alt="" />
                                 <div className="position-relative py-4">
-                                    <h4 className="text-uppercase">Full Name</h4>
-                                    <p className="m-0">Designation</p>
+                                    <h4 className="text-uppercase">Họ và tên</h4>
+                                    <p className="m-0">Chỉ định</p>
                                     <div className="team-social position-absolute w-100 h-100 d-flex align-items-center justify-content-center">
                                         <a className="btn btn-lg btn-primary btn-lg-square mx-1" href="#">
                                             <i className="fab fa-twitter" />
@@ -455,10 +463,10 @@ function About() {
                                 </div>
                             </div>
                             <div className="team-item">
-                                <img className="img-fluid w-100" src="img/team-2.jpg" alt="" />
+                                <img className="img-fluid w-100" src={`${process.env.PUBLIC_URL}/assets/img/team-2.jpg`} alt="" />
                                 <div className="position-relative py-4">
-                                    <h4 className="text-uppercase">Full Name</h4>
-                                    <p className="m-0">Designation</p>
+                                    <h4 className="text-uppercase">Họ và tên</h4>
+                                    <p className="m-0">Chỉ định</p>
                                     <div className="team-social position-absolute w-100 h-100 d-flex align-items-center justify-content-center">
                                         <a className="btn btn-lg btn-primary btn-lg-square mx-1" href="#">
                                             <i className="fab fa-twitter" />
@@ -473,10 +481,11 @@ function About() {
                                 </div>
                             </div>
                             <div className="team-item">
-                                <img className="img-fluid w-100" src="img/team-3.jpg" alt="" />
+                                <img className="img-fluid w-100" src={`${process.env.PUBLIC_URL}/assets/img/team-3.jpg`} alt="" />
+
                                 <div className="position-relative py-4">
-                                    <h4 className="text-uppercase">Full Name</h4>
-                                    <p className="m-0">Designation</p>
+                                    <h4 className="text-uppercase">Họ và tên</h4>
+                                    <p className="m-0">Chỉ định</p>
                                     <div className="team-social position-absolute w-100 h-100 d-flex align-items-center justify-content-center">
                                         <a className="btn btn-lg btn-primary btn-lg-square mx-1" href="#">
                                             <i className="fab fa-twitter" />
@@ -491,10 +500,10 @@ function About() {
                                 </div>
                             </div>
                             <div className="team-item">
-                                <img className="img-fluid w-100" src="img/team-4.jpg" alt="" />
+                                <img className="img-fluid w-100" src={`${process.env.PUBLIC_URL}/assets/img/team-4.jpg`} alt="" />
                                 <div className="position-relative py-4">
-                                    <h4 className="text-uppercase">Full Name</h4>
-                                    <p className="m-0">Designation</p>
+                                    <h4 className="text-uppercase">Họ và tên</h4>
+                                    <p className="m-0">Chỉ định</p>
                                     <div className="team-social position-absolute w-100 h-100 d-flex align-items-center justify-content-center">
                                         <a className="btn btn-lg btn-primary btn-lg-square mx-1" href="#">
                                             <i className="fab fa-twitter" />
@@ -521,20 +530,19 @@ function About() {
                                     className="px-5 bg-secondary d-flex align-items-center justify-content-between"
                                     style={{ height: 350 }}
                                 >
-                                    <img
-                                        className="img-fluid flex-shrink-0 ml-n5 w-50 mr-4"
-                                        src="img/banner-left.png"
-                                        alt=""
-                                    />
+                                    <img className="img-fluid flex-shrink-0 ml-n5 w-50 mr-4"
+                                         src={`${process.env.PUBLIC_URL}/assets/img/banner-left.png`}
+                                         alt="" />
+
                                     <div className="text-right">
                                         <h3 className="text-uppercase text-light mb-3">
-                                            Want to be driver?
+                                            Bạn muốn trở thành tài xế?
                                         </h3>
                                         <p className="mb-4">
                                             Lorem justo sit sit ipsum eos lorem kasd, kasd labore
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
-                                            Start Now
+                                            Bắt đầu ngay
                                         </a>
                                     </div>
                                 </div>
@@ -546,19 +554,18 @@ function About() {
                                 >
                                     <div className="text-left">
                                         <h3 className="text-uppercase text-light mb-3">
-                                            Looking for a car?
+                                            Bạn đang tìm kiếm một chiếc xe?
                                         </h3>
                                         <p className="mb-4">
                                             Lorem justo sit sit ipsum eos lorem kasd, kasd labore
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
-                                            Start Now
+                                            Bắt đầu ngay
                                         </a>
                                     </div>
-                                    <img
-                                        className="img-fluid flex-shrink-0 mr-n5 w-50 ml-4"
-                                        src="img/banner-right.png"
-                                        alt=""
+                                    <img className="img-fluid flex-shrink-0 ml-n5 w-50 mr-4"
+                                         src={`${process.env.PUBLIC_URL}/assets/img/banner-right.png`}
+                                         alt=""
                                     />
                                 </div>
                             </div>
@@ -567,24 +574,26 @@ function About() {
                 </div>
                 {/* Banner End */}
                 {/* Testimonial Start */}
+
                 <div className="container-fluid py-5">
                     <div className="container py-5">
+
                         <h1 className="display-1 text-primary text-center">05</h1>
                         <h1 className="display-4 text-uppercase text-center mb-5">
-                            Our Client's Say
+                            Khách Hàng Nói Gì về chúng tôi
                         </h1>
                         <div className="owl-carousel testimonial-carousel">
                             <div className="testimonial-item d-flex flex-column justify-content-center px-4">
                                 <div className="d-flex align-items-center justify-content-between mb-3">
-                                    <img
-                                        className="img-fluid ml-n4"
-                                        src="img/testimonial-1.jpg"
-                                        alt=""
+                                    <img className="img-fluid ml-n4"
+                                         src={`${process.env.PUBLIC_URL}/assets/img/testimonial-1.jpg`}
+                                         alt=""
                                     />
-                                    <h1 className="display-2 text-white m-0 fa fa-quote-right" />
+
+                                    <h1 className="display-2 text-white m-0 fa fa-quote-right"/>
                                 </div>
-                                <h4 className="text-uppercase mb-2">Client Name</h4>
-                                <i className="mb-2">Profession</i>
+                                <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
+                                <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
                                     Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
                                     stet, justo elitr dolor amet sit sea sed
@@ -592,15 +601,14 @@ function About() {
                             </div>
                             <div className="testimonial-item d-flex flex-column justify-content-center px-4">
                                 <div className="d-flex align-items-center justify-content-between mb-3">
-                                    <img
-                                        className="img-fluid ml-n4"
-                                        src="img/testimonial-2.jpg"
-                                        alt=""
+                                    <img className="img-fluid ml-n4"
+                                         src={`${process.env.PUBLIC_URL}/assets/img/testimonial-2.jpg`}
+                                         alt=""
                                     />
-                                    <h1 className="display-2 text-white m-0 fa fa-quote-right" />
+                                    <h1 className="display-2 text-white m-0 fa fa-quote-right"/>
                                 </div>
-                                <h4 className="text-uppercase mb-2">Client Name</h4>
-                                <i className="mb-2">Profession</i>
+                                <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
+                                <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
                                     Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
                                     stet, justo elitr dolor amet sit sea sed
@@ -608,15 +616,14 @@ function About() {
                             </div>
                             <div className="testimonial-item d-flex flex-column justify-content-center px-4">
                                 <div className="d-flex align-items-center justify-content-between mb-3">
-                                    <img
-                                        className="img-fluid ml-n4"
-                                        src="img/testimonial-3.jpg"
-                                        alt=""
+                                    <img className="img-fluid ml-n4"
+                                         src={`${process.env.PUBLIC_URL}/assets/img/testimonial-3.jpg`}
+                                         alt=""
                                     />
-                                    <h1 className="display-2 text-white m-0 fa fa-quote-right" />
+                                    <h1 className="display-2 text-white m-0 fa fa-quote-right"/>
                                 </div>
-                                <h4 className="text-uppercase mb-2">Client Name</h4>
-                                <i className="mb-2">Profession</i>
+                                <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
+                                <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
                                     Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
                                     stet, justo elitr dolor amet sit sea sed
@@ -624,15 +631,14 @@ function About() {
                             </div>
                             <div className="testimonial-item d-flex flex-column justify-content-center px-4">
                                 <div className="d-flex align-items-center justify-content-between mb-3">
-                                    <img
-                                        className="img-fluid ml-n4"
-                                        src="img/testimonial-4.jpg"
-                                        alt=""
+                                    <img className="img-fluid ml-n4"
+                                         src={`${process.env.PUBLIC_URL}/assets/img/testimonial-4.jpg`}
+                                         alt=""
                                     />
-                                    <h1 className="display-2 text-white m-0 fa fa-quote-right" />
+                                    <h1 className="display-2 text-white m-0 fa fa-quote-right"/>
                                 </div>
-                                <h4 className="text-uppercase mb-2">Client Name</h4>
-                                <i className="mb-2">Profession</i>
+                                <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
+                                <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
                                     Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
                                     stet, justo elitr dolor amet sit sea sed
@@ -645,8 +651,7 @@ function About() {
                 {/* Contact Start */}
                 <div className="container-fluid py-5">
                     <div className="container pt-5 pb-3">
-                        <h1 className="display-1 text-primary text-center">06</h1>
-                        <h1 className="display-4 text-uppercase text-center mb-5">Contact Us</h1>
+                        <h1 className="display-4 text-uppercase text-center mb-5">Liên hệ với chúng tôi</h1>
                         <div className="row">
                             <div className="col-lg-7 mb-2">
                                 <div className="contact-form bg-light mb-4" style={{ padding: 30 }}>
@@ -656,7 +661,7 @@ function About() {
                                                 <input
                                                     type="text"
                                                     className="form-control p-4"
-                                                    placeholder="Your Name"
+                                                    placeholder="Tên"
                                                     required="required"
                                                 />
                                             </div>
@@ -664,7 +669,7 @@ function About() {
                                                 <input
                                                     type="email"
                                                     className="form-control p-4"
-                                                    placeholder="Your Email"
+                                                    placeholder="Email"
                                                     required="required"
                                                 />
                                             </div>
@@ -673,7 +678,7 @@ function About() {
                                             <input
                                                 type="text"
                                                 className="form-control p-4"
-                                                placeholder="Subject"
+                                                placeholder="Chủ đề"
                                                 required="required"
                                             />
                                         </div>
@@ -681,14 +686,14 @@ function About() {
                 <textarea
                     className="form-control py-3 px-4"
                     rows={5}
-                    placeholder="Message"
+                    placeholder="Tin nhắn"
                     required="required"
                     defaultValue={""}
                 />
                                         </div>
                                         <div>
                                             <button className="btn btn-primary py-3 px-5" type="submit">
-                                                Send Message
+                                                Gửi tin nhắn
                                             </button>
                                         </div>
                                     </form>
@@ -702,33 +707,34 @@ function About() {
                                     <div className="d-flex mb-3">
                                         <i className="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3" />
                                         <div className="mt-n1">
-                                            <h5 className="text-light">Head Office</h5>
-                                            <p>123 Street, New York, USA</p>
+                                            <h5 className="text-light">Văn Phòng Chính</h5>
+                                            <p>123 Đường, New York, USA</p>
                                         </div>
                                     </div>
                                     <div className="d-flex mb-3">
                                         <i className="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3" />
                                         <div className="mt-n1">
-                                            <h5 className="text-light">Branch Office</h5>
-                                            <p>123 Street, New York, USA</p>
+                                            <h5 className="text-light">Văn Phòng Chi Nhánh</h5>
+                                            <p>123 Đường, New York, USA</p>
                                         </div>
                                     </div>
                                     <div className="d-flex mb-3">
                                         <i className="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3" />
                                         <div className="mt-n1">
-                                            <h5 className="text-light">Customer Service</h5>
+                                            <h5 className="text-light">Dịch Vụ Khách Hàng</h5>
                                             <p>customer@example.com</p>
                                         </div>
                                     </div>
                                     <div className="d-flex">
                                         <i className="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3" />
                                         <div className="mt-n1">
-                                            <h5 className="text-light">Return &amp; Refund</h5>
+                                            <h5 className="text-light">Trả Hàng &amp; Hoàn Tiền</h5>
                                             <p className="m-0">refund@example.com</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

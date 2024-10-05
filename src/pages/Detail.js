@@ -6,17 +6,18 @@ function Detail() {
             <>
              {/* Page Header Start */}
                 <div className="container-fluid page-header">
-                    <h1 className="display-3 text-uppercase text-white mb-3">Car Detail</h1>
+                    <h1 className="display-3 text-uppercase text-white mb-3">Chi Tiết Xe</h1>
                     <div className="d-inline-flex text-white">
                         <h6 className="text-uppercase m-0">
                             <a className="text-white" href="/">
-                                Home
+                                Trang Chủ
                             </a>
                         </h6>
                         <h6 className="text-body m-0 px-3">/</h6>
-                        <h6 className="text-uppercase text-body m-0">Car Detail</h6>
+                        <h6 className="text-uppercase text-body m-0">Chi Tiết Xe</h6>
                     </div>
                 </div>
+
                 {/* Page Header Start */}
                 {/* Detail Start */}
                 <div className="container-fluid pt-5">
@@ -30,7 +31,6 @@ function Detail() {
                                     </div>
                                     <div className="col-md-3 col-6 px-2 pb-2">
                                         <img className="img-fluid w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-2.jpg`} alt="" />
-
                                     </div>
                                     <div className="col-md-3 col-6 px-2 pb-2">
                                         <img className="img-fluid w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-3.jpg`} alt="" />
@@ -40,8 +40,8 @@ function Detail() {
                                     </div>
                                 </div>
                                 <p>
-                                    Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam
-                                    dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam
+                                    Thời gian tạm thời là elitr tại rebum tại clita aliquyam consetetur. Diam
+                                    dolor diam ipsum et, thời gian voluptua sit consetetur sit. Aliquyam
                                     diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem
                                     et sit, sed stet no labore lorem sit. Sanctus clita duo justo et
                                     tempor consetetur takimata eirmod, dolores takimata consetetur
@@ -55,11 +55,11 @@ function Detail() {
                                     </div>
                                     <div className="col-md-3 col-6 mb-2">
                                         <i className="fa fa-cogs text-primary mr-2" />
-                                        <span>Automatic</span>
+                                        <span>Tự động</span>
                                     </div>
                                     <div className="col-md-3 col-6 mb-2">
                                         <i className="fa fa-road text-primary mr-2" />
-                                        <span>20km/liter</span>
+                                        <span>20km/lít</span>
                                     </div>
                                     <div className="col-md-3 col-6 mb-2">
                                         <i className="fa fa-eye text-primary mr-2" />
@@ -71,11 +71,11 @@ function Detail() {
                                     </div>
                                     <div className="col-md-3 col-6 mb-2">
                                         <i className="fa fa-cogs text-primary mr-2" />
-                                        <span>Automatic</span>
+                                        <span>Tự động</span>
                                     </div>
                                     <div className="col-md-3 col-6 mb-2">
                                         <i className="fa fa-road text-primary mr-2" />
-                                        <span>20km/liter</span>
+                                        <span>20km/lít</span>
                                     </div>
                                     <div className="col-md-3 col-6 mb-2">
                                         <i className="fa fa-eye text-primary mr-2" />
@@ -87,11 +87,11 @@ function Detail() {
                                     </div>
                                     <div className="col-md-3 col-6 mb-2">
                                         <i className="fa fa-cogs text-primary mr-2" />
-                                        <span>Automatic</span>
+                                        <span>Tự động</span>
                                     </div>
                                     <div className="col-md-3 col-6 mb-2">
                                         <i className="fa fa-road text-primary mr-2" />
-                                        <span>20km/liter</span>
+                                        <span>20km/lít</span>
                                     </div>
                                     <div className="col-md-3 col-6 mb-2">
                                         <i className="fa fa-eye text-primary mr-2" />
@@ -99,25 +99,26 @@ function Detail() {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-lg-4 mb-5">
                                 <div className="bg-secondary p-5">
                                     <h3 className="text-primary text-center mb-4">
-                                        Check Availability
+                                        Kiểm Tra Tình Trạng
                                     </h3>
                                     <div className="form-group">
                                         <select className="custom-select px-4" style={{ height: 50 }}>
-                                            <option selected="">Pickup Location</option>
-                                            <option value={1}>Location 1</option>
-                                            <option value={2}>Location 2</option>
-                                            <option value={3}>Location 3</option>
+                                            <option selected="">Địa Điểm Nhận</option>
+                                            <option value={1}>Địa Điểm 1</option>
+                                            <option value={2}>Địa Điểm 2</option>
+                                            <option value={3}>Địa Điểm 3</option>
                                         </select>
                                     </div>
                                     <div className="form-group">
                                         <select className="custom-select px-4" style={{ height: 50 }}>
-                                            <option selected="">Drop Location</option>
-                                            <option value={1}>Location 1</option>
-                                            <option value={2}>Location 2</option>
-                                            <option value={3}>Location 3</option>
+                                            <option selected="">Địa Điểm Trả</option>
+                                            <option value={1}>Địa Điểm 1</option>
+                                            <option value={2}>Địa Điểm 2</option>
+                                            <option value={3}>Địa Điểm 3</option>
                                         </select>
                                     </div>
                                     <div className="form-group">
@@ -125,7 +126,7 @@ function Detail() {
                                             <input
                                                 type="text"
                                                 className="form-control p-4 datetimepicker-input"
-                                                placeholder="Pickup Date"
+                                                placeholder="Ngày Nhận"
                                                 data-target="#date1"
                                                 data-toggle="datetimepicker"
                                             />
@@ -136,7 +137,7 @@ function Detail() {
                                             <input
                                                 type="text"
                                                 className="form-control p-4 datetimepicker-input"
-                                                placeholder="Pickup Time"
+                                                placeholder="Giờ Nhận"
                                                 data-target="#time1"
                                                 data-toggle="datetimepicker"
                                             />
@@ -144,10 +145,10 @@ function Detail() {
                                     </div>
                                     <div className="form-group">
                                         <select className="custom-select px-4" style={{ height: 50 }}>
-                                            <option selected="">Select Person</option>
-                                            <option value={1}>Person 1</option>
-                                            <option value={2}>Person 2</option>
-                                            <option value={3}>Person 3</option>
+                                            <option selected="">Chọn Người</option>
+                                            <option value={1}>Người 1</option>
+                                            <option value={2}>Người 2</option>
+                                            <option value={3}>Người 3</option>
                                         </select>
                                     </div>
                                     <div className="form-group mb-0">
@@ -156,11 +157,12 @@ function Detail() {
                                             type="submit"
                                             style={{ height: 50 }}
                                         >
-                                            Check Now
+                                            Kiểm Tra Ngay
                                         </button>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -168,7 +170,7 @@ function Detail() {
                 {/* Related Car Start */}
                 <div className="container-fluid pb-5">
                     <div className="container pb-5">
-                        <h2 className="mb-4">Related Cars</h2>
+                        <h2 className="mb-4">Xe liên quan</h2>
                         <div
                             className="owl-carousel related-carousel position-relative"
                             style={{ padding: "0 30px" }}
@@ -184,7 +186,7 @@ function Detail() {
                                     </div>
                                     <div className="px-2 border-left border-right">
                                         <i className="fa fa-cogs text-primary mr-1" />
-                                        <span>AUTO</span>
+                                        <span>TỰ ĐỘNG</span>
                                     </div>
                                     <div className="px-2">
                                         <i className="fa fa-road text-primary mr-1" />
@@ -192,9 +194,10 @@ function Detail() {
                                     </div>
                                 </div>
                                 <a className="btn btn-primary px-3" href="">
-                                    $99.00/Day
+                                    $99.00/Ngày
                                 </a>
                             </div>
+
                             <div className="rent-item">
                                 <img className="img-fluid mb-4" src={`${process.env.PUBLIC_URL}/assets/img/car-rent-2.png`} alt="" />
                                 <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
@@ -205,7 +208,7 @@ function Detail() {
                                     </div>
                                     <div className="px-2 border-left border-right">
                                         <i className="fa fa-cogs text-primary mr-1" />
-                                        <span>AUTO</span>
+                                        <span>TỰ ĐỘNG</span>
                                     </div>
                                     <div className="px-2">
                                         <i className="fa fa-road text-primary mr-1" />
@@ -213,9 +216,10 @@ function Detail() {
                                     </div>
                                 </div>
                                 <a className="btn btn-primary px-3" href="">
-                                    $99.00/Day
+                                    $99.00/Ngày
                                 </a>
                             </div>
+
                             <div className="rent-item">
                                 <img className="img-fluid mb-4" src={`${process.env.PUBLIC_URL}/assets/img/car-rent-3.png`} alt="" />
                                 <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
@@ -226,7 +230,7 @@ function Detail() {
                                     </div>
                                     <div className="px-2 border-left border-right">
                                         <i className="fa fa-cogs text-primary mr-1" />
-                                        <span>AUTO</span>
+                                        <span>TỰ ĐỘNG</span>
                                     </div>
                                     <div className="px-2">
                                         <i className="fa fa-road text-primary mr-1" />
@@ -234,9 +238,10 @@ function Detail() {
                                     </div>
                                 </div>
                                 <a className="btn btn-primary px-3" href="">
-                                    $99.00/Day
+                                    $99.00/Ngày
                                 </a>
                             </div>
+
                             <div className="rent-item">
                                 <img className="img-fluid mb-4" src={`${process.env.PUBLIC_URL}/assets/img/car-rent-4.png`} alt="" />
                                 <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
@@ -247,7 +252,7 @@ function Detail() {
                                     </div>
                                     <div className="px-2 border-left border-right">
                                         <i className="fa fa-cogs text-primary mr-1" />
-                                        <span>AUTO</span>
+                                        <span>TỰ ĐỘNG</span>
                                     </div>
                                     <div className="px-2">
                                         <i className="fa fa-road text-primary mr-1" />
@@ -255,9 +260,10 @@ function Detail() {
                                     </div>
                                 </div>
                                 <a className="btn btn-primary px-3" href="">
-                                    $99.00/Day
+                                    $99.00/Ngày
                                 </a>
                             </div>
+
                         </div>
                     </div>
                 </div>

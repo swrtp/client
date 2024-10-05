@@ -7,15 +7,15 @@ function Booking() {
 
                 {/* Page Header Start */}
                 <div className="container-fluid page-header">
-                    <h1 className="display-3 text-uppercase text-white mb-3">Car Booking</h1>
+                    <h1 className="display-3 text-uppercase text-white mb-3">Đặt xe</h1>
                     <div className="d-inline-flex text-white">
                         <h6 className="text-uppercase m-0">
                             <a className="text-white" href="/">
-                                Home
+                                Trang chủ
                             </a>
                         </h6>
                         <h6 className="text-body m-0 px-3">/</h6>
-                        <h6 className="text-uppercase text-body m-0">Car Booking</h6>
+                        <h6 className="text-uppercase text-body m-0">Đặt xe</h6>
                     </div>
                 </div>
                 {/* Page Header Start */}
@@ -25,12 +25,13 @@ function Booking() {
                         <h1 className="display-4 text-uppercase mb-5">Mercedes Benz R3</h1>
                         <div className="row align-items-center pb-2">
                             <div className="col-lg-6 mb-4">
-                                <img className="img-fluid" src="img/bg-banner.jpg" alt="" />
+                                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/assets/img/bg-banner.jpg`} alt="" />
+
                             </div>
                             <div className="col-lg-6 mb-4">
-                                <h4 className="mb-2">$99.00/Day</h4>
+                                <h4 className="mb-2">1000000/Ngày</h4>
                                 <div className="d-flex mb-3">
-                                    <h6 className="mr-2">Rating:</h6>
+                                    <h6 className="mr-2">Đánh giá:</h6>
                                     <div className="d-flex align-items-center justify-content-center mb-1">
                                         <small className="fa fa-star text-primary mr-1" />
                                         <small className="fa fa-star text-primary mr-1" />
@@ -49,7 +50,7 @@ function Booking() {
                                     invidunt
                                 </p>
                                 <div className="d-flex pt-1">
-                                    <h6>Share on:</h6>
+                                    <h6>Chia sẻ trên:</h6>
                                     <div className="d-inline-flex">
                                         <a className="px-2" href="">
                                             <i className="fab fa-facebook-f" />
@@ -70,51 +71,51 @@ function Booking() {
                         <div className="row mt-n3 mt-lg-0 pb-4">
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-car text-primary mr-2" />
-                                <span>Model: 2015</span>
+                                <span>Mẫu: 2015</span>
                             </div>
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-cogs text-primary mr-2" />
-                                <span>Automatic</span>
+                                <span>Tự động</span>
                             </div>
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-road text-primary mr-2" />
-                                <span>20km/liter</span>
+                                <span>20km/lít</span>
                             </div>
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-eye text-primary mr-2" />
-                                <span>GPS Navigation</span>
+                                <span>Định vị GPS </span>
                             </div>
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-car text-primary mr-2" />
-                                <span>Model: 2015</span>
+                                <span>Mẫu: 2015</span>
                             </div>
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-cogs text-primary mr-2" />
-                                <span>Automatic</span>
+                                <span>Tự đông</span>
                             </div>
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-road text-primary mr-2" />
-                                <span>20km/liter</span>
+                                <span>20km/Lít</span>
                             </div>
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-eye text-primary mr-2" />
-                                <span>GPS Navigation</span>
+                                <span>Định vị GPS</span>
                             </div>
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-car text-primary mr-2" />
-                                <span>Model: 2015</span>
+                                <span>Mẫu: 2015</span>
                             </div>
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-cogs text-primary mr-2" />
-                                <span>Automatic</span>
+                                <span>Tự đông</span>
                             </div>
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-road text-primary mr-2" />
-                                <span>20km/liter</span>
+                                <span>20km/Lít</span>
                             </div>
                             <div className="col-md-3 col-6 mb-2">
                                 <i className="fa fa-eye text-primary mr-2" />
-                                <span>GPS Navigation</span>
+                                <span>Định vị GPS</span>
                             </div>
                         </div>
                     </div>
@@ -125,14 +126,14 @@ function Booking() {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8">
-                                <h2 className="mb-4">Personal Detail</h2>
+                                <h2 className="mb-4">Thông tin cá nhân</h2>
                                 <div className="mb-5">
                                     <div className="row">
                                         <div className="col-6 form-group">
                                             <input
                                                 type="text"
                                                 className="form-control p-4"
-                                                placeholder="First Name"
+                                                placeholder="Họ"
                                                 required="required"
                                             />
                                         </div>
@@ -140,7 +141,7 @@ function Booking() {
                                             <input
                                                 type="text"
                                                 className="form-control p-4"
-                                                placeholder="Last Name"
+                                                placeholder="Tên"
                                                 required="required"
                                             />
                                         </div>
@@ -150,7 +151,7 @@ function Booking() {
                                             <input
                                                 type="email"
                                                 className="form-control p-4"
-                                                placeholder="Your Email"
+                                                placeholder="Email của bạn"
                                                 required="required"
                                             />
                                         </div>
@@ -158,29 +159,29 @@ function Booking() {
                                             <input
                                                 type="text"
                                                 className="form-control p-4"
-                                                placeholder="Mobile Number"
+                                                placeholder="Số điện thoại"
                                                 required="required"
                                             />
                                         </div>
                                     </div>
                                 </div>
-                                <h2 className="mb-4">Booking Detail</h2>
+                                <h2 className="mb-4">Chi tiết đặt xe</h2>
                                 <div className="mb-5">
                                     <div className="row">
                                         <div className="col-6 form-group">
                                             <select className="custom-select px-4" style={{ height: 50 }}>
-                                                <option selected="">Pickup Location</option>
-                                                <option value={1}>Location 1</option>
-                                                <option value={2}>Location 2</option>
-                                                <option value={3}>Location 3</option>
+                                                <option selected="">Địa điểm đón</option>
+                                                <option value={1}>Địa điểm 1</option>
+                                                <option value={2}>Địa điểm 2</option>
+                                                <option value={3}>Địa điểm 3</option>
                                             </select>
                                         </div>
                                         <div className="col-6 form-group">
                                             <select className="custom-select px-4" style={{ height: 50 }}>
-                                                <option selected="">Drop Location</option>
-                                                <option value={1}>Location 1</option>
-                                                <option value={2}>Location 2</option>
-                                                <option value={3}>Location 3</option>
+                                                <option selected="">Địa điểm trả</option>
+                                                <option value={1}>Địa điểm 1</option>
+                                                <option value={2}>Địa điểm 2</option>
+                                                <option value={3}>Địa điểm 3</option>
                                             </select>
                                         </div>
                                     </div>
@@ -190,7 +191,7 @@ function Booking() {
                                                 <input
                                                     type="text"
                                                     className="form-control p-4 datetimepicker-input"
-                                                    placeholder="Pickup Date"
+                                                    placeholder="Ngày Đón"
                                                     data-target="#date2"
                                                     data-toggle="datetimepicker"
                                                 />
@@ -201,7 +202,7 @@ function Booking() {
                                                 <input
                                                     type="text"
                                                     className="form-control p-4 datetimepicker-input"
-                                                    placeholder="Pickup Time"
+                                                    placeholder="Giờ Đón"
                                                     data-target="#time2"
                                                     data-toggle="datetimepicker"
                                                 />
@@ -211,21 +212,22 @@ function Booking() {
                                     <div className="row">
                                         <div className="col-6 form-group">
                                             <select className="custom-select px-4" style={{ height: 50 }}>
-                                                <option selected="">Select Adult</option>
-                                                <option value={1}>Adult 1</option>
-                                                <option value={2}>Adult 2</option>
-                                                <option value={3}>Adult 3</option>
+                                                <option selected="">Chọn Người Lớn</option>
+                                                <option value={1}>Người Lớn 1</option>
+                                                <option value={2}>Người Lớn 2</option>
+                                                <option value={3}>Người Lớn 3</option>
                                             </select>
                                         </div>
                                         <div className="col-6 form-group">
                                             <select className="custom-select px-4" style={{ height: 50 }}>
-                                                <option selected="">Select Child</option>
-                                                <option value={1}>Child 1</option>
-                                                <option value={2}>Child 2</option>
-                                                <option value={3}>Child 3</option>
+                                                <option selected="">Chọn Trẻ Em</option>
+                                                <option value={1}>Trẻ Em 1</option>
+                                                <option value={2}>Trẻ Em 2</option>
+                                                <option value={3}>Trẻ Em 3</option>
                                             </select>
                                         </div>
                                     </div>
+
                                     <div className="form-group">
               <textarea
                   className="form-control py-3 px-4"
@@ -239,7 +241,7 @@ function Booking() {
                             </div>
                             <div className="col-lg-4">
                                 <div className="bg-secondary p-5 mb-5">
-                                    <h2 className="text-primary mb-4">Payment</h2>
+                                    <h2 className="text-primary mb-4">Thanh Toán</h2>
                                     <div className="form-group">
                                         <div className="custom-control custom-radio">
                                             <input
@@ -262,7 +264,7 @@ function Booking() {
                                                 id="directcheck"
                                             />
                                             <label className="custom-control-label" htmlFor="directcheck">
-                                                Direct Check
+                                                Trả Trực Tiếp
                                             </label>
                                         </div>
                                     </div>
@@ -275,15 +277,16 @@ function Booking() {
                                                 id="banktransfer"
                                             />
                                             <label className="custom-control-label" htmlFor="banktransfer">
-                                                Bank Transfer
+                                                Chuyển Khoản Ngân Hàng
                                             </label>
                                         </div>
                                     </div>
                                     <button className="btn btn-block btn-primary py-3">
-                                        Reserve Now
+                                        Đặt Ngay
                                     </button>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
