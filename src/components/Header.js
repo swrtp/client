@@ -73,13 +73,13 @@ function Header() {
                        >
                            <div className="navbar-nav ml-auto py-0">
                                <a href="/" className="nav-item nav-link">
-                                   Home
+                                   Trang chủ
                                </a>
                                <a href="/about" className="nav-item nav-link active">
-                                   About
+                                   Về chúng tôi
                                </a>
                                <a href="/service" className="nav-item nav-link">
-                                   Service
+                                   DỊch vụ
                                </a>
                                <div className="nav-item dropdown">
                                    <a
@@ -87,17 +87,17 @@ function Header() {
                                        className="nav-link dropdown-toggle"
                                        data-toggle="dropdown"
                                    >
-                                       Cars
+                                       Xe
                                    </a>
                                    <div className="dropdown-menu rounded-0 m-0">
                                        <a href="/car" className="dropdown-item">
-                                           Car Listing
+                                           Danh sách xe
                                        </a>
                                        <a href="/detail" className="dropdown-item">
-                                           Car Detail
+                                           Chi tiết xe
                                        </a>
                                        <a href="/booking" className="dropdown-item">
-                                           Car Booking
+                                           Đặt xe
                                        </a>
                                    </div>
                                </div>
@@ -108,19 +108,19 @@ function Header() {
                                        className="nav-link dropdown-toggle"
                                        data-toggle="dropdown"
                                    >
-                                       Pages
+                                       Khác
                                    </a>
                                    <div className="dropdown-menu rounded-0 m-0">
                                        <a href="/team" className="dropdown-item">
-                                           The Team
+                                           Đội ngũ
                                        </a>
                                        <a href="/testimonial" className="dropdown-item">
-                                           Testimonial
+                                           CHứng nhận
                                        </a>
                                    </div>
                                </div>
                                <a href="/contact" className="nav-item nav-link">
-                                   Contact
+                                   Liên hệ
                                </a>
                            </div>
                        </div>
@@ -133,18 +133,18 @@ function Header() {
                <div className="row mx-n2">
                    <div className="col-xl-2 col-lg-4 col-md-6 px-2">
                        <select className="custom-select px-4 mb-3" style={{ height: 50 }}>
-                           <option selected="">Pickup Location</option>
-                           <option value={1}>Location 1</option>
-                           <option value={2}>Location 2</option>
-                           <option value={3}>Location 3</option>
+                           <option selected="">Địa Điểm Nhận</option>
+                           <option value={1}>Địa Điểm 1</option>
+                           <option value={2}>Địa Điểm 2</option>
+                           <option value={3}>Địa Điểm 3</option>
                        </select>
                    </div>
                    <div className="col-xl-2 col-lg-4 col-md-6 px-2">
                        <select className="custom-select px-4 mb-3" style={{ height: 50 }}>
-                           <option selected="">Drop Location</option>
-                           <option value={1}>Location 1</option>
-                           <option value={2}>Location 2</option>
-                           <option value={3}>Location 3</option>
+                           <option selected="">Địa Điểm Trả</option>
+                           <option value={1}>Địa Điểm 1</option>
+                           <option value={2}>Địa Điểm 2</option>
+                           <option value={3}>Địa Điểm 3</option>
                        </select>
                    </div>
                    <div className="col-xl-2 col-lg-4 col-md-6 px-2">
@@ -152,7 +152,7 @@ function Header() {
                            <input
                                type="text"
                                className="form-control p-4 datetimepicker-input"
-                               placeholder="Pickup Date"
+                               placeholder="Ngày Nhận"
                                data-target="#date"
                                data-toggle="datetimepicker"
                            />
@@ -163,7 +163,7 @@ function Header() {
                            <input
                                type="text"
                                className="form-control p-4 datetimepicker-input"
-                               placeholder="Pickup Time"
+                               placeholder="Giờ Nhận"
                                data-target="#time"
                                data-toggle="datetimepicker"
                            />
@@ -171,10 +171,10 @@ function Header() {
                    </div>
                    <div className="col-xl-2 col-lg-4 col-md-6 px-2">
                        <select className="custom-select px-4 mb-3" style={{ height: 50 }}>
-                           <option selected="">Select A Car</option>
-                           <option value={1}>Car 1</option>
-                           <option value={2}>Car 1</option>
-                           <option value={3}>Car 1</option>
+                           <option selected="">Chọn Xe</option>
+                           <option value={1}>Xe 1</option>
+                           <option value={2}>Xe 2</option>
+                           <option value={3}>Xe 3</option>
                        </select>
                    </div>
                    <div className="col-xl-2 col-lg-4 col-md-6 px-2">
@@ -183,11 +183,12 @@ function Header() {
                            type="submit"
                            style={{ height: 50 }}
                        >
-                           Search
+                           Tìm Kiếm
                        </button>
                    </div>
                </div>
            </div>
+
            {/* Search End */}
        </div>
      )

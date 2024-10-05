@@ -1,36 +1,37 @@
 import React from "react";
 
 function About() {
-    return(
+    return (
         <div>
             <>
 
                 {/* Search End */}
                 {/* Page Header Start */}
                 <div className="container-fluid page-header">
-                    <h1 className="display-3 text-uppercase text-white mb-3">About</h1>
+                    <h1 className="display-3 text-uppercase text-white mb-3">Về chúng tôi</h1>
                     <div className="d-inline-flex text-white">
                         <h6 className="text-uppercase m-0">
                             <a className="text-white" href="/">
-                                Home
+                                Trang chủ
                             </a>
                         </h6>
                         <h6 className="text-body m-0 px-3">/</h6>
-                        <h6 className="text-uppercase text-body m-0">About</h6>
+                        <h6 className="text-uppercase text-body m-0">Về chúng tôi</h6>
                     </div>
                 </div>
-                {/* Page Header Start */}
+                {/* Page Header End */}
                 {/* About Start */}
                 <div className="container-fluid py-5">
                     <div className="container pt-5 pb-3">
                         <h1 className="display-4 text-uppercase text-center mb-5">
-                            Welcome To <span className="text-primary">Royal Cars</span>
+                            Chào mừng đến với <span className="text-primary">Royal Cars</span>
                         </h1>
                         <div className="row justify-content-center">
                             <div className="col-lg-10 text-center">
-                                <img className="w-75 mb-4" src="img/about.png" alt="" />
+                                <img className="w-75 mb-4" src={`${process.env.PUBLIC_URL}/assets/img/about.png`} alt="" />
+
                                 <p>
-                                    Justo et eos et ut takimata sed sadipscing dolore lorem, et elitr
+                                    Chỉ và eos và ut takimata sed sadipscing dolore lorem, et elitr
                                     labore labore voluptua no rebum sed, stet voluptua amet sed elitr ea
                                     dolor dolores no clita. Dolores diam magna clita ea eos amet, amet
                                     rebum voluptua vero vero sed clita accusam takimata. Nonumy labore
@@ -54,7 +55,7 @@ function About() {
                                     >
                                         <i className="fa fa-2x fa-headset text-secondary" />
                                     </div>
-                                    <h4 className="text-uppercase m-0">24/7 Car Rental Support</h4>
+                                    <h4 className="text-uppercase m-0">Hỗ trợ thuê xe 24/7</h4>
                                 </div>
                             </div>
                             <div className="col-lg-4 mb-2">
@@ -69,7 +70,7 @@ function About() {
                                         <i className="fa fa-2x fa-car text-secondary" />
                                     </div>
                                     <h4 className="text-light text-uppercase m-0">
-                                        Car Reservation Anytime
+                                        Đặt xe bất cứ lúc nào
                                     </h4>
                                 </div>
                             </div>
@@ -84,7 +85,7 @@ function About() {
                                     >
                                         <i className="fa fa-2x fa-map-marker-alt text-secondary" />
                                     </div>
-                                    <h4 className="text-uppercase m-0">Lots Of Pickup Locations</h4>
+                                    <h4 className="text-uppercase m-0">Nhiều địa điểm đón xe</h4>
                                 </div>
                             </div>
                         </div>
@@ -101,19 +102,21 @@ function About() {
                                     style={{ height: 350 }}
                                 >
                                     <img
-                                        className="img-fluid flex-shrink-0 ml-n5 w-50 mr-4"
-                                        src="img/banner-left.png"
-                                        alt=""
+                                   className="img-fluid flex-shrink-0 ml-n5 w-50 mr-4"
+                                   src={`${process.env.PUBLIC_URL}/assets/img/banner-left.png`}
+                                   alt=""
                                     />
+
+
                                     <div className="text-right">
                                         <h3 className="text-uppercase text-light mb-3">
-                                            Want to be driver?
+                                            Muốn trở thành tài xế?
                                         </h3>
                                         <p className="mb-4">
                                             Lorem justo sit sit ipsum eos lorem kasd, kasd labore
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
-                                            Start Now
+                                            Bắt đầu ngay
                                         </a>
                                     </div>
                                 </div>
@@ -125,13 +128,13 @@ function About() {
                                 >
                                     <div className="text-left">
                                         <h3 className="text-uppercase text-light mb-3">
-                                            Looking for a car?
+                                            Tìm kiếm một chiếc xe?
                                         </h3>
                                         <p className="mb-4">
                                             Lorem justo sit sit ipsum eos lorem kasd, kasd labore
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
-                                            Start Now
+                                            Bắt đầu ngay
                                         </a>
                                     </div>
                                     <img
@@ -164,8 +167,7 @@ function About() {
             </>
 
         </div>
-    )
-
+    );
 }
 
 export default About;

@@ -43,10 +43,10 @@ function Footer() {
             >
                 <div className="row pt-5">
                     <div className="col-lg-3 col-md-6 mb-5">
-                        <h4 className="text-uppercase text-light mb-4">Get In Touch</h4>
+                        <h4 className="text-uppercase text-light mb-4">Liên Hệ Với Chúng Tôi</h4>
                         <p className="mb-2">
                             <i className="fa fa-map-marker-alt text-white mr-3" />
-                            123 Street, New York, USA
+                            123 Đường, New York, USA
                         </p>
                         <p className="mb-2">
                             <i className="fa fa-phone-alt text-white mr-3" />
@@ -56,7 +56,7 @@ function Footer() {
                             <i className="fa fa-envelope text-white mr-3" />
                             info@example.com
                         </p>
-                        <h6 className="text-uppercase text-white py-2">Follow Us</h6>
+                        <h6 className="text-uppercase text-white py-2">Theo Dõi Chúng Tôi</h6>
                         <div className="d-flex justify-content-start">
                             <a className="btn btn-lg btn-dark btn-lg-square mr-2" href="#">
                                 <i className="fab fa-twitter" />
@@ -72,37 +72,39 @@ function Footer() {
                             </a>
                         </div>
                     </div>
+
                     <div className="col-lg-3 col-md-6 mb-5">
-                        <h4 className="text-uppercase text-light mb-4">Usefull Links</h4>
+                        <h4 className="text-uppercase text-light mb-4">Liên Kết Hữu Ích</h4>
                         <div className="d-flex flex-column justify-content-start">
                             <a className="text-body mb-2" href="#">
                                 <i className="fa fa-angle-right text-white mr-2" />
-                                Private Policy
+                                Chính Sách Bảo Mật
                             </a>
                             <a className="text-body mb-2" href="#">
                                 <i className="fa fa-angle-right text-white mr-2" />
-                                Term &amp; Conditions
+                                Điều Khoản &amp; Điều Kiện
                             </a>
                             <a className="text-body mb-2" href="#">
                                 <i className="fa fa-angle-right text-white mr-2" />
-                                New Member Registration
+                                Đăng Ký Thành Viên Mới
                             </a>
                             <a className="text-body mb-2" href="#">
                                 <i className="fa fa-angle-right text-white mr-2" />
-                                Affiliate Programme
+                                Chương Trình Đối Tác
                             </a>
                             <a className="text-body mb-2" href="#">
                                 <i className="fa fa-angle-right text-white mr-2" />
-                                Return &amp; Refund
+                                Hoàn Trả &amp; Đổi Hàng
                             </a>
                             <a className="text-body" href="#">
                                 <i className="fa fa-angle-right text-white mr-2" />
-                                Help &amp; FQAs
+                                Trợ Giúp &amp; Câu Hỏi Thường Gặp
                             </a>
                         </div>
                     </div>
+
                     <div className="col-lg-3 col-md-6 mb-5">
-                        <h4 className="text-uppercase text-light mb-4">Car Gallery</h4>
+                        <h4 className="text-uppercase text-light mb-4">Phòng trưng bày xe</h4>
                         <div className="row mx-n1">
                             <div className="col-4 px-1 mb-2">
                                 <a href="">
@@ -137,7 +139,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 mb-5">
-                        <h4 className="text-uppercase text-light mb-4">Newsletter</h4>
+                        <h4 className="text-uppercase text-light mb-4">Bản Tin</h4>
                         <p className="mb-4">
                             Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem
                             sit sed elitr sed kasd et
@@ -148,27 +150,29 @@ function Footer() {
                                     type="text"
                                     className="form-control bg-dark border-dark"
                                     style={{ padding: 25 }}
-                                    placeholder="Your Email"
+                                    placeholder="Email Của Bạn"
                                 />
                                 <div className="input-group-append">
                                     <button className="btn btn-primary text-uppercase px-3">
-                                        Sign Up
+                                        Đăng Ký
                                     </button>
                                 </div>
                             </div>
                         </div>
                         <i>Lorem sit sed elitr sed kasd et</i>
                     </div>
+
                 </div>
             </div>
             <div className="container-fluid bg-dark py-4 px-sm-3 px-md-5">
                 <p className="mb-2 text-center text-body">
-                    © <a href="#">Your Site Name</a>. All Rights Reserved.
+                    © <a href="#">Car rental</a>. Bảo Lưu Tất Cả Quyền.
                 </p>
                 <p className="m-0 text-center text-body">
-                    Designed by <a href="https://htmlcodex.com">HTML Codex</a>
+                    Thiết Kế Bởi <a href="https://htmlcodex.com">HTML Codex</a>
                 </p>
             </div>
+
             {/* Footer End */}
             {/* Back to Top */}
             <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top">

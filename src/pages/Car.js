@@ -6,15 +6,15 @@ function  Car() {
             <>
              {/* Page Header Start */}
                 <div className="container-fluid page-header">
-                    <h1 className="display-3 text-uppercase text-white mb-3">Car Listing</h1>
+                    <h1 className="display-3 text-uppercase text-white mb-3">Danh sách xe</h1>
                     <div className="d-inline-flex text-white">
                         <h6 className="text-uppercase m-0">
                             <a className="text-white" href="/">
-                                Home
+                                Trang chủ
                             </a>
                         </h6>
                         <h6 className="text-body m-0 px-3">/</h6>
-                        <h6 className="text-uppercase text-body m-0">Car Listing</h6>
+                        <h6 className="text-uppercase text-body m-0">Danh sách</h6>
                     </div>
                 </div>
                 {/* Page Header Start */}
@@ -22,7 +22,7 @@ function  Car() {
                 <div className="container-fluid py-5">
                     <div className="container pt-5 pb-3">
                         <h1 className="display-4 text-uppercase text-center mb-5">
-                            Find Your Car
+                            Tìm xe
                         </h1>
                         <div className="row">
                             <div className="col-lg-4 col-md-6 mb-2">
@@ -37,7 +37,7 @@ function  Car() {
                                         </div>
                                         <div className="px-2 border-left border-right">
                                             <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
+                                            <span>Tự đông</span>
                                         </div>
                                         <div className="px-2">
                                             <i className="fa fa-road text-primary mr-1" />
@@ -45,7 +45,7 @@ function  Car() {
                                         </div>
                                     </div>
                                     <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
+                                        1000000/Ngày
                                     </a>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ function  Car() {
                                         </div>
                                         <div className="px-2 border-left border-right">
                                             <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
+                                            <span>Tự đông</span>
                                         </div>
                                         <div className="px-2">
                                             <i className="fa fa-road text-primary mr-1" />
@@ -70,7 +70,7 @@ function  Car() {
                                         </div>
                                     </div>
                                     <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
+                                        1000000/Ngày
                                     </a>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ function  Car() {
                                         </div>
                                         <div className="px-2 border-left border-right">
                                             <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
+                                            <span>Tự động</span>
                                         </div>
                                         <div className="px-2">
                                             <i className="fa fa-road text-primary mr-1" />
@@ -94,7 +94,7 @@ function  Car() {
                                         </div>
                                     </div>
                                     <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
+                                        1000000/Ngày
                                     </a>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ function  Car() {
                                         </div>
                                         <div className="px-2 border-left border-right">
                                             <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
+                                            <span>Tự động</span>
                                         </div>
                                         <div className="px-2">
                                             <i className="fa fa-road text-primary mr-1" />
@@ -118,7 +118,7 @@ function  Car() {
                                         </div>
                                     </div>
                                     <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
+                                        1000000/Ngày
                                     </a>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@ function  Car() {
                                         </div>
                                         <div className="px-2 border-left border-right">
                                             <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
+                                            <span>Tự động</span>
                                         </div>
                                         <div className="px-2">
                                             <i className="fa fa-road text-primary mr-1" />
@@ -142,7 +142,7 @@ function  Car() {
                                         </div>
                                     </div>
                                     <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
+                                        1,000,000/Ngày
                                     </a>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@ function  Car() {
                                         </div>
                                         <div className="px-2 border-left border-right">
                                             <i className="fa fa-cogs text-primary mr-1" />
-                                            <span>AUTO</span>
+                                            <span>Tự động</span>
                                         </div>
                                         <div className="px-2">
                                             <i className="fa fa-road text-primary mr-1" />
@@ -165,7 +165,7 @@ function  Car() {
                                         </div>
                                     </div>
                                     <a className="btn btn-primary px-3" href="">
-                                        $99.00/Day
+                                        1,000,000/Ngày
                                     </a>
                                 </div>
                             </div>
@@ -182,20 +182,19 @@ function  Car() {
                                     className="px-5 bg-secondary d-flex align-items-center justify-content-between"
                                     style={{ height: 350 }}
                                 >
-
                                     <img className="img-fluid flex-shrink-0 ml-n5 w-50 mr-4"
                                          src={`${process.env.PUBLIC_URL}/assets/img/banner-left.png`}
                                          alt="" />
 
                                     <div className="text-right">
                                         <h3 className="text-uppercase text-light mb-3">
-                                            Want to be driver?
+                                            Bạn muốn trở thành tài xế?
                                         </h3>
                                         <p className="mb-4">
                                             Lorem justo sit sit ipsum eos lorem kasd, kasd labore
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
-                                            Start Now
+                                            Bắt đầu ngay
                                         </a>
                                     </div>
                                 </div>
@@ -207,26 +206,25 @@ function  Car() {
                                 >
                                     <div className="text-left">
                                         <h3 className="text-uppercase text-light mb-3">
-                                            Looking for a car?
+                                            Bạn đang tìm kiếm một chiếc xe?
                                         </h3>
                                         <p className="mb-4">
                                             Lorem justo sit sit ipsum eos lorem kasd, kasd labore
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
-                                            Start Now
+                                            Bắt đầu ngay
                                         </a>
                                     </div>
                                     <img className="img-fluid flex-shrink-0 ml-n5 w-50 mr-4"
                                          src={`${process.env.PUBLIC_URL}/assets/img/banner-right.png`}
                                          alt=""
                                     />
-
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 {/* Banner End */}
 
             </>
