@@ -42,12 +42,7 @@ function Booking() {
                                     </div>
                                 </div>
                                 <p>
-                                    Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam
-                                    dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam
-                                    diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem
-                                    et sit, sed stet no labore lorem sit. Sanctus clita duo justo et
-                                    tempor consetetur takimata eirmod, dolores takimata consetetur
-                                    invidunt
+                                    Xe Mercedes Benz R3 là lựa chọn lý tưởng cho những ai muốn trải nghiệm sự sang trọng và tiện nghi khi thuê xe. Với thiết kế hiện đại và nội thất bọc da cao cấp, chiếc xe mang đến cảm giác đẳng cấp cho người sử dụng. Động cơ mạnh mẽ giúp xe vận hành êm ái, phù hợp cho cả di chuyển trong thành phố lẫn những chuyến đi dài. Ngoài ra, R3 còn được trang bị nhiều tính năng tiện nghi hiện đại và các hệ thống an toàn tiên tiến, đảm bảo an toàn cho người lái và hành khách. Với dịch vụ cho thuê linh hoạt và giá cả cạnh tranh, Mercedes Benz R3 chắc chắn sẽ mang lại trải nghiệm tuyệt vời cho mọi hành trình của bạn.
                                 </p>
                                 <div className="d-flex pt-1">
                                     <h6>Chia sẻ trên:</h6>
@@ -291,7 +286,17 @@ function Booking() {
                     </div>
                 </div>
                 {/* Car Booking End */}
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/easing/easing.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/waypoints/waypoints.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/owlcarousel/owl.carousel.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/moment.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/moment-timezone.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js`}></script>
 
+                {/* Template Javascript */}
+                <script src={`${process.env.PUBLIC_URL}/assets/js/main.js`}></script>
             </>
 
         </div>

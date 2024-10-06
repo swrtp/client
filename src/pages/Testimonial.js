@@ -39,8 +39,7 @@ function Testimonial() {
                                 <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
                                 <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
-                                    Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                    stet, justo elitr dolor amet sit sea sed
+                                    Hệ thống cho thuê xe tự lái mang đến trải nghiệm thuận tiện và linh hoạt, với xe chất lượng cao và thủ tục thuê nhanh gọn, giúp khách hàng dễ dàng khám phá mọi ngóc ngách của thành phố
                                 </p>
                             </div>
                             <div className="testimonial-item d-flex flex-column justify-content-center px-4">
@@ -54,8 +53,7 @@ function Testimonial() {
                                 <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
                                 <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
-                                    Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                    stet, justo elitr dolor amet sit sea sed
+                                    Dịch vụ cho thuê xe tự lái rất tiện lợi, xe luôn trong tình trạng tốt và sạch sẽ, giúp tôi có những chuyến đi thú vị mà không lo lắng về phương tiện di chuyển
                                 </p>
                             </div>
                             <div className="testimonial-item d-flex flex-column justify-content-center px-4">
@@ -69,8 +67,7 @@ function Testimonial() {
                                 <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
                                 <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
-                                    Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                    stet, justo elitr dolor amet sit sea sed
+                                    Hệ thống đặt xe dễ sử dụng, hỗ trợ trực tuyến nhanh chóng, cho phép tôi thuê xe chỉ trong vài phút, thật sự ấn tượng và hiệu quả.
                                 </p>
                             </div>
                             <div className="testimonial-item d-flex flex-column justify-content-center px-4">
@@ -84,8 +81,7 @@ function Testimonial() {
                                 <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
                                 <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
-                                    Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                    stet, justo elitr dolor amet sit sea sed
+                                    Tôi rất hài lòng với trải nghiệm thuê xe tự lái, nhân viên hỗ trợ nhiệt tình và xe luôn được bảo trì tốt, làm cho chuyến đi của tôi trở nên thoải mái và an toàn.
                                 </p>
                             </div>
                         </div>
@@ -93,7 +89,17 @@ function Testimonial() {
                 </div>
 
                 {/* Testimonial End */}
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/easing/easing.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/waypoints/waypoints.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/owlcarousel/owl.carousel.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/moment.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/moment-timezone.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js`}></script>
 
+                {/* Template Javascript */}
+                <script src={`${process.env.PUBLIC_URL}/assets/js/main.js`}></script>
             </>
 
         </div>

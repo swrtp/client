@@ -31,15 +31,7 @@ function About() {
                                 <img className="w-75 mb-4" src={`${process.env.PUBLIC_URL}/assets/img/about.png`} alt="" />
 
                                 <p>
-                                    Chỉ và eos và ut takimata sed sadipscing dolore lorem, et elitr
-                                    labore labore voluptua no rebum sed, stet voluptua amet sed elitr ea
-                                    dolor dolores no clita. Dolores diam magna clita ea eos amet, amet
-                                    rebum voluptua vero vero sed clita accusam takimata. Nonumy labore
-                                    ipsum sea voluptua sea eos sit justo, no ipsum sanctus sanctus no et
-                                    no ipsum amet, tempor labore est labore no. Eos diam eirmod lorem ut
-                                    eirmod, ipsum diam sadipscing stet dolores elitr elitr eirmod
-                                    dolore. Magna elitr accusam takimata labore, et at erat eirmod
-                                    consetetur tempor eirmod invidunt est, ipsum nonumy at et.
+                                    Chào mừng bạn đến với trang web cho thuê xe tự động của chúng tôi! Chúng tôi cung cấp dịch vụ cho thuê xe với nhiều loại phương tiện đa dạng, từ xe sedan đến SUV, đáp ứng mọi nhu cầu di chuyển của bạn. Với quy trình đặt xe đơn giản và nhanh chóng, cùng với mức giá cạnh tranh, chúng tôi cam kết mang đến trải nghiệm thuê xe tiện lợi và an toàn nhất. Hãy để chúng tôi đồng hành cùng bạn trên những chuyến đi thú vị!
                                 </p>
                             </div>
                         </div>
@@ -113,7 +105,7 @@ function About() {
                                             Muốn trở thành tài xế?
                                         </h3>
                                         <p className="mb-4">
-                                            Lorem justo sit sit ipsum eos lorem kasd, kasd labore
+                                            Chúng tôi có thể giúp bạn
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
                                             Bắt đầu ngay
@@ -131,15 +123,15 @@ function About() {
                                             Tìm kiếm một chiếc xe?
                                         </h3>
                                         <p className="mb-4">
-                                            Lorem justo sit sit ipsum eos lorem kasd, kasd labore
+                                            Chúng tôi có thể giúp bạn
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
                                             Bắt đầu ngay
                                         </a>
                                     </div>
                                     <img
-                                        className="img-fluid flex-shrink-0 mr-n5 w-50 ml-4"
-                                        src="img/banner-right.png"
+                                        className="img-fluid flex-shrink-0 ml-n5 w-50 mr-4"
+                                        src={`${process.env.PUBLIC_URL}/assets/img/banner-right.png`}
                                         alt=""
                                     />
                                 </div>
@@ -149,20 +141,19 @@ function About() {
                 </div>
                 {/* Banner End */}
 
-
                 {/* JavaScript Libraries */}
-
-                <script src="https://code.jquery.com/jquery-3.4.1.min.js"/>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"/>
-                <script src="assets/lib/easing/easing.min.js"/>
-                <script src="assets/lib/waypoints/waypoints.min.js"/>
-                <script src="assets/lib/owlcarousel/owl.carousel.min.js"/>
-                <script src="assets/lib/tempusdominus/js/moment.min.js"/>
-                <script src="assets/lib/tempusdominus/js/moment-timezone.min.js"/>
-                <script src="assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"/>
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/easing/easing.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/waypoints/waypoints.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/owlcarousel/owl.carousel.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/moment.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/moment-timezone.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js`}></script>
 
                 {/* Template Javascript */}
-                <script src="assets/js/main.js"></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/js/main.js`}></script>
+
 
             </>
 

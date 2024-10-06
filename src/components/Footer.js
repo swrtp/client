@@ -37,6 +37,7 @@ function Footer() {
             </div>
             {/* Vendor End */}
             {/* Footer Start */}
+            {/* Footer Start */}
             <div
                 className="container-fluid bg-secondary py-5 px-sm-3 px-md-5"
                 style={{ marginTop: 90 }}
@@ -90,7 +91,7 @@ function Footer() {
                             </a>
                             <a className="text-body mb-2" href="#">
                                 <i className="fa fa-angle-right text-white mr-2" />
-                                Chương Trình Đối Tác
+                                Chương Trình Liên Kết
                             </a>
                             <a className="text-body mb-2" href="#">
                                 <i className="fa fa-angle-right text-white mr-2" />
@@ -104,11 +105,12 @@ function Footer() {
                     </div>
 
                     <div className="col-lg-3 col-md-6 mb-5">
-                        <h4 className="text-uppercase text-light mb-4">Phòng trưng bày xe</h4>
+                        <h4 className="text-uppercase text-light mb-4">Thư Viện Xe</h4>
                         <div className="row mx-n1">
                             <div className="col-4 px-1 mb-2">
                                 <a href="">
-                                    <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-1.jpg`} alt="Gallery" />
+                                    <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-1.jpg`} alt="" />
+
                                 </a>
                             </div>
                             <div className="col-4 px-1 mb-2">
@@ -118,31 +120,30 @@ function Footer() {
                             </div>
                             <div className="col-4 px-1 mb-2">
                                 <a href="">
-                                    <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-3.jpg`} alt="Gallery" />
+                                    <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-3.jpg`} alt="" />                                    </a>
+                            </div>
+                            <div className="col-4 px-1 mb-2">
+                                <a href="">
+                                    <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-4.jpg`} alt="" />
                                 </a>
                             </div>
                             <div className="col-4 px-1 mb-2">
                                 <a href="">
-                                    <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-4.jpg`} alt="Gallery" />
+                                    <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-5.jpg`} alt="" />
                                 </a>
                             </div>
                             <div className="col-4 px-1 mb-2">
                                 <a href="">
-                                    <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-5.jpg`} alt="Gallery" />
-                                </a>
-                            </div>
-                            <div className="col-4 px-1 mb-2">
-                                <a href="">
-                                    <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-6.jpg`} alt="Gallery" />
+                                    <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/img/gallery-6.jpg`} alt="" />
                                 </a>
                             </div>
                         </div>
                     </div>
+
                     <div className="col-lg-3 col-md-6 mb-5">
                         <h4 className="text-uppercase text-light mb-4">Bản Tin</h4>
                         <p className="mb-4">
-                            Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem
-                            sit sed elitr sed kasd et
+                            Hệ thống cho thuê xe tự lái vừa ra mắt nhiều mẫu xe mới, mang đến cho khách hàng trải nghiệm di chuyển tiện lợi và hiện đại hơn bao giờ hết!
                         </p>
                         <div className="w-100 mb-3">
                             <div className="input-group">
@@ -159,19 +160,20 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <i>Lorem sit sed elitr sed kasd et</i>
+                        <i>Chúng tôi luôn chào đón bạn</i>
                     </div>
 
                 </div>
             </div>
             <div className="container-fluid bg-dark py-4 px-sm-3 px-md-5">
                 <p className="mb-2 text-center text-body">
-                    © <a href="#">Car rental</a>. Bảo Lưu Tất Cả Quyền.
+                    © <a href="#">Tên Trang Của Bạn</a>. Bảo Lưu Tất Cả Quyền Lợi.
                 </p>
                 <p className="m-0 text-center text-body">
                     Thiết Kế Bởi <a href="https://htmlcodex.com">HTML Codex</a>
                 </p>
             </div>
+\
 
             {/* Footer End */}
             {/* Back to Top */}

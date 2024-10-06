@@ -73,15 +73,8 @@ function About() {
                                 {/*<img className="w-75 mb-4" src="img/about.png" alt="" />*/}
                                 <img className="w-75 mb-4" src={`${process.env.PUBLIC_URL}/assets/img/about.png`} alt="" />
                                 <p>
-                                    Justo et eos et ut takimata sed sadipscing dolore lorem, et elitr
-                                    labore labore voluptua no rebum sed, stet voluptua amet sed elitr ea
-                                    dolor dolores no clita. Dolores diam magna clita ea eos amet, amet
-                                    rebum voluptua vero vero sed clita accusam takimata. Nonumy labore
-                                    ipsum sea voluptua sea eos sit justo, no ipsum sanctus sanctus no et
-                                    no ipsum amet, tempor labore est labore no. Eos diam eirmod lorem ut
-                                    eirmod, ipsum diam sadipscing stet dolores elitr elitr eirmod
-                                    dolore. Magna elitr accusam takimata labore, et at erat eirmod
-                                    consetetur tempor eirmod invidunt est, ipsum nonumy at et.
+                                    Chào mừng bạn đến với trang web cho thuê xe tự động của chúng tôi! Chúng tôi cung cấp dịch vụ cho thuê xe với nhiều loại phương tiện đa dạng, từ xe sedan đến SUV, đáp ứng mọi nhu cầu di chuyển của bạn. Với quy trình đặt xe đơn giản và nhanh chóng, cùng với mức giá cạnh tranh, chúng tôi cam kết mang đến trải nghiệm thuê xe tiện lợi và an toàn nhất. Hãy để chúng tôi đồng hành cùng bạn trên những chuyến đi thú vị!
+
                                 </p>
                             </div>
                         </div>
@@ -156,8 +149,7 @@ function About() {
                                     </div>
                                     <h4 className="text-uppercase mb-3">Cho thuê xe </h4>
                                     <p className="m-0">
-                                        Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                        stet, justo elitr dolor amet sit sea sed
+                                        Dịch vụ cho thuê xe cung cấp nhiều loại xe đa dạng, giúp khách hàng dễ dàng di chuyển linh hoạt và tiện lợi cho các chuyến đi cá nhân hoặc công tác.
                                     </p>
                                 </div>
                             </div>
@@ -174,8 +166,7 @@ function About() {
                                     </div>
                                     <h4 className="text-uppercase mb-3">Tài trợ xe</h4>
                                     <p className="m-0">
-                                        Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                        stet, justo elitr dolor amet sit sea sed
+                                        Dịch vụ tài trợ xe giúp khách hàng dễ dàng sở hữu phương tiện di chuyển với mức vay lên đến 80% giá trị xe và lãi suất ưu đãi.
                                     </p>
                                 </div>
                             </div>
@@ -192,8 +183,7 @@ function About() {
                                     </div>
                                     <h4 className="text-uppercase mb-3">Kiểm tra xe</h4>
                                     <p className="m-0">
-                                        Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                        stet, justo elitr dolor amet sit sea sed
+                                        Kiểm tra xe  tình trạng kỹ thuật và an toàn của trước khi cho thuê xe và sử dụng
                                     </p>
                                 </div>
                             </div>
@@ -210,8 +200,7 @@ function About() {
                                     </div>
                                     <h4 className="text-uppercase mb-3">Tự động sửa chữa</h4>
                                     <p className="m-0">
-                                        Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                        stet, justo elitr dolor amet sit sea sed
+                                        Tính năng tự động sửa chữa cho phép hệ thống tự phát hiện và khắc phục lỗi mà không cần sự can thiệp của con người, giúp tiết kiệm thời gian và nâng cao hiệu quả.
                                     </p>
                                 </div>
                             </div>
@@ -228,8 +217,7 @@ function About() {
                                     </div>
                                     <h4 className="text-uppercase mb-3">Sơn tự động</h4>
                                     <p className="m-0">
-                                        Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                        stet, justo elitr dolor amet sit sea sed
+                                        Tính năng tự động sơn cho phép máy móc tự động thực hiện quá trình sơn, giúp tiết kiệm thời gian và đảm bảo chất lượng sơn đồng đều trên bề mặt.
                                     </p>
                                 </div>
                             </div>
@@ -244,10 +232,8 @@ function About() {
                                         </div>
                                         <h1 className="display-2 text-white mt-n2 m-0">06</h1>
                                     </div>
-                                    <h4 className="text-uppercase mb-3">Dọn xe tự động</h4>
-                                    <p className="m-0">
-                                        Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                        stet, justo elitr dolor amet sit sea sed
+                                      <h4 className="text-uppercase mb-3">Dọn dẹp tự động</h4>
+                                    <p className="m-0">Tính năng dọn dẹp tự động của hệ thống cho thuê xe tự động giúp xe luôn sạch sẽ và gọn gàng, nâng cao trải nghiệm của khách hàng mà không cần sự can thiệp của nhân viên.
                                     </p>
                                 </div>
                             </div>
@@ -539,7 +525,7 @@ function About() {
                                             Bạn muốn trở thành tài xế?
                                         </h3>
                                         <p className="mb-4">
-                                            Lorem justo sit sit ipsum eos lorem kasd, kasd labore
+                                            Chúng tôi có thể giúp bạn
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
                                             Bắt đầu ngay
@@ -557,7 +543,7 @@ function About() {
                                             Bạn đang tìm kiếm một chiếc xe?
                                         </h3>
                                         <p className="mb-4">
-                                            Lorem justo sit sit ipsum eos lorem kasd, kasd labore
+                                            Chúng tôi có thể giúp bạn
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
                                             Bắt đầu ngay
@@ -595,8 +581,7 @@ function About() {
                                 <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
                                 <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
-                                    Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                    stet, justo elitr dolor amet sit sea sed
+                                    Hệ thống cho thuê xe tự lái mang đến trải nghiệm thuận tiện và linh hoạt, với xe chất lượng cao và thủ tục thuê nhanh gọn, giúp khách hàng dễ dàng khám phá mọi ngóc ngách của thành phố
                                 </p>
                             </div>
                             <div className="testimonial-item d-flex flex-column justify-content-center px-4">
@@ -610,8 +595,7 @@ function About() {
                                 <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
                                 <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
-                                    Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                    stet, justo elitr dolor amet sit sea sed
+                                    Dịch vụ cho thuê xe tự lái rất tiện lợi, xe luôn trong tình trạng tốt và sạch sẽ, giúp tôi có những chuyến đi thú vị mà không lo lắng về phương tiện di chuyển
                                 </p>
                             </div>
                             <div className="testimonial-item d-flex flex-column justify-content-center px-4">
@@ -625,8 +609,7 @@ function About() {
                                 <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
                                 <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
-                                    Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                    stet, justo elitr dolor amet sit sea sed
+                                    Hệ thống đặt xe dễ sử dụng, hỗ trợ trực tuyến nhanh chóng, cho phép tôi thuê xe chỉ trong vài phút, thật sự ấn tượng và hiệu quả.
                                 </p>
                             </div>
                             <div className="testimonial-item d-flex flex-column justify-content-center px-4">
@@ -640,8 +623,7 @@ function About() {
                                 <h4 className="text-uppercase mb-2">Tên Khách Hàng</h4>
                                 <i className="mb-2">Nghề Nghiệp</i>
                                 <p className="m-0">
-                                    Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum
-                                    stet, justo elitr dolor amet sit sea sed
+                                    Tôi rất hài lòng với trải nghiệm thuê xe tự lái, nhân viên hỗ trợ nhiệt tình và xe luôn được bảo trì tốt, làm cho chuyến đi của tôi trở nên thoải mái và an toàn.
                                 </p>
                             </div>
                         </div>
@@ -739,7 +721,17 @@ function About() {
                     </div>
                 </div>
                 {/* Contact End */}
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/easing/easing.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/waypoints/waypoints.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/owlcarousel/owl.carousel.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/moment.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/moment-timezone.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js`}></script>
 
+                {/* Template Javascript */}
+                <script src={`${process.env.PUBLIC_URL}/assets/js/main.js`}></script>
             </>
 
 

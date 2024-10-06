@@ -191,7 +191,7 @@ function  Car() {
                                             Bạn muốn trở thành tài xế?
                                         </h3>
                                         <p className="mb-4">
-                                            Lorem justo sit sit ipsum eos lorem kasd, kasd labore
+                                            Chúng tôi có thể giúp bạn
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
                                             Bắt đầu ngay
@@ -209,7 +209,7 @@ function  Car() {
                                             Bạn đang tìm kiếm một chiếc xe?
                                         </h3>
                                         <p className="mb-4">
-                                            Lorem justo sit sit ipsum eos lorem kasd, kasd labore
+                                            Chúng tôi có thể giúp bạn
                                         </p>
                                         <a className="btn btn-primary py-2 px-4" href="">
                                             Bắt đầu ngay
@@ -226,7 +226,17 @@ function  Car() {
                 </div>
 
                 {/* Banner End */}
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/easing/easing.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/waypoints/waypoints.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/owlcarousel/owl.carousel.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/moment.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/moment-timezone.min.js`}></script>
+                <script src={`${process.env.PUBLIC_URL}/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js`}></script>
 
+                {/* Template Javascript */}
+                <script src={`${process.env.PUBLIC_URL}/assets/js/main.js`}></script>
             </>
 
         </div>
