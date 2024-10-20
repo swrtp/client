@@ -2,7 +2,7 @@
 .loginContainer {
   display: flex;
   width: 70%;
-  height: 70vh;
+  /* height: 70vh; */
   background-color: white;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -62,4 +62,9 @@
 .forgotPassword {
   margin-top: 10px;
   text-align: center;
+}
+.errorMessage {
+  color: #e64a19;
+  margin: 5;
+  font-size: 13px;
 }

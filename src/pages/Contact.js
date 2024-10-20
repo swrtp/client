@@ -6,15 +6,15 @@ function Contact() {
       <>
         {/* Page Header Start */}
         <div className="container-fluid page-header">
-          <h1 className="display-3 text-uppercase text-white mb-3">Contact</h1>
+          <h1 className="display-3 text-uppercase text-white mb-3">Liên hệ</h1>
           <div className="d-inline-flex text-white">
             <h6 className="text-uppercase m-0">
               <a className="text-white" href="/">
-                Home
+                Trang chủ
               </a>
             </h6>
             <h6 className="text-body m-0 px-3">/</h6>
-            <h6 className="text-uppercase text-body m-0">Contact</h6>
+            <h6 className="text-uppercase text-body m-0">Liên hệ</h6>
           </div>
         </div>
         {/* Page Header Start */}
@@ -22,7 +22,7 @@ function Contact() {
         <div className="container-fluid py-5">
           <div className="container pt-5 pb-3">
             <h1 className="display-4 text-uppercase text-center mb-5">
-              Contact Us
+              Liên hệ với chúng tôi
             </h1>
             <div className="row">
               <div className="col-lg-7 mb-2">
@@ -36,7 +36,7 @@ function Contact() {
                         <input
                           type="text"
                           className="form-control p-4"
-                          placeholder="Your Name"
+                          placeholder="Tên"
                           required="required"
                         />
                       </div>
@@ -44,7 +44,7 @@ function Contact() {
                         <input
                           type="email"
                           className="form-control p-4"
-                          placeholder="Your Email"
+                          placeholder="Email"
                           required="required"
                         />
                       </div>
@@ -53,7 +53,7 @@ function Contact() {
                       <input
                         type="text"
                         className="form-control p-4"
-                        placeholder="Subject"
+                        placeholder="Chủ đề"
                         required="required"
                       />
                     </div>
@@ -61,7 +61,7 @@ function Contact() {
                       <textarea
                         className="form-control py-3 px-4"
                         rows={5}
-                        placeholder="Message"
+                        placeholder="Tin nhắn"
                         required="required"
                         defaultValue={""}
                       />
@@ -71,7 +71,7 @@ function Contact() {
                         className="btn btn-primary py-3 px-5"
                         type="submit"
                       >
-                        Send Message
+                        Gửi tin nhắn
                       </button>
                     </div>
                   </form>
@@ -85,28 +85,28 @@ function Contact() {
                   <div className="d-flex mb-3">
                     <i className="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3" />
                     <div className="mt-n1">
-                      <h5 className="text-light">Head Office</h5>
-                      <p>123 Street, New York, USA</p>
+                      <h5 className="text-light">Văn Phòng Chính</h5>
+                      <p>123 Đường, New York, USA</p>
                     </div>
                   </div>
                   <div className="d-flex mb-3">
                     <i className="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3" />
                     <div className="mt-n1">
-                      <h5 className="text-light">Branch Office</h5>
-                      <p>123 Street, New York, USA</p>
+                      <h5 className="text-light">Văn Phòng Chi Nhánh</h5>
+                      <p>123 Đường, New York, USA</p>
                     </div>
                   </div>
                   <div className="d-flex mb-3">
                     <i className="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3" />
                     <div className="mt-n1">
-                      <h5 className="text-light">Customer Service</h5>
+                      <h5 className="text-light">Dịch Vụ Khách Hàng</h5>
                       <p>customer@example.com</p>
                     </div>
                   </div>
                   <div className="d-flex">
                     <i className="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3" />
                     <div className="mt-n1">
-                      <h5 className="text-light">Return &amp; Refund</h5>
+                      <h5 className="text-light">Trả Hàng &amp; Hoàn Tiền</h5>
                       <p className="m-0">refund@example.com</p>
                     </div>
                   </div>

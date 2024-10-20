@@ -12,6 +12,9 @@ import Footer from "./components/Footer";
 import Login from "./pages/Login";
 import AllCar from "./pages/AllCar";
 import DetailCar from "./pages/DetailCar";
+import Register from "./pages/Register";
+import ActiveAccount from "./pages/ActiveAccount";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -24,12 +27,15 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/cars/:id" element={<DetailCar />} />
-          <Route path="/cars/" element={<AllCar />} />
+          <Route path="/cars" element={<AllCar />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/team" element={<Team />} />
           <Route path="/testimonial" element={<Testimonial />} />
 
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/active" element={<ActiveAccount />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
         <Footer />
       </BrowserRouter>
